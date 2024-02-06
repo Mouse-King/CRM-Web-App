@@ -1,0 +1,30 @@
+{
+  "name": "crm-react",
+  "version": "1.0.0",
+  "description": "A CRM business product based on Node, Express, MongoDB, GraphQL & React.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon ."
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "author": "Francis Lagares",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-server": "^2.18.1",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^8.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.7"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^11.0.0",
+    "@commitlint/config-conventional": "^11.0.0",
+    "husky": "^4.3.0",
+    "nodemon": "^2.0.4"
+  }
+}

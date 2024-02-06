@@ -1,0 +1,6 @@
+config.env
+node_modules
+
+# next.js
+.next/
+.vercel
